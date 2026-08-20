@@ -1,6 +1,23 @@
 @import "tailwindcss";
 
+/*
+ * The starting palette is deliberately neutral.
+ *
+ * This file used to ship `--color-primary: #4f46e5` — indigo. Every project
+ * generated from this template therefore started purple and stayed purple
+ * unless something decided otherwise, which nothing asked it to do. The single
+ * most recognisable "AI-made" tell was not something the model reached for: we
+ * shipped it as the default.
+ *
+ * Replacing it with a different opinionated hue would only move the problem, so
+ * the default is a near-black that reads as unstyled rather than as anybody's
+ * brand. It is a placeholder, and it is meant to be replaced: a coffee roastery
+ * and a law firm should not leave here looking like the same product.
+ *
+ * Art direction happens by editing these tokens, not by scattering colour
+ * classes through the components.
+ */
 @theme {
-  --color-primary: #4f46e5;
-  --color-primary-hover: #4338ca;
+  --color-primary: #18181b;
+  --color-primary-hover: #27272a;
 }
